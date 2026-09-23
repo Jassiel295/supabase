@@ -1,6 +1,6 @@
 // 1. Tus credenciales
-const supabaseUrl = 'https://cdabdkmibomfhyhhpdqc.supabase.co'; 
-const supabaseKey = 'sb_publishable_Iq52MFkKXlo0XP0yYlKzYw_b1stKaZ3';
+const supabaseUrl = 'https://pjgvacanznuwljfcspcx.supabase.co'; 
+const supabaseKey = 'sb_publishable_HyS-LpdS-FasiWS3AIj6_g_ogch8yAi';
 
 // 2. Creamos el cliente UNA SOLA VEZ y de forma global
 let supabaseClient = null;
