@@ -53,7 +53,7 @@ async function buscarCategoria() {
     }
 
     // 2. Obtener los valores del formulario
-    const id = document.getElementById('id_categoria').value.trim();
+    const id = document.getElementById('id_categorias').value.trim();
     const nombre = document.getElementById('nombre_categoria').value.trim();
 
     // 3. Validar que al menos uno esté lleno
@@ -68,7 +68,7 @@ async function buscarCategoria() {
 
         // 5. Filtrar según lo que el usuario escribió
         if (id) {
-            query = query.eq('id_categoria', id);
+            query = query.eq('id_categorias', id);
         }
         if (nombre) {
             query = query.ilike('nombre', '%${nombre}%'); // 'nombre' es el campo real en Supabase
